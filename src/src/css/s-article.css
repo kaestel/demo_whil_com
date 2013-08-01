@@ -1,0 +1,85 @@
+
+#content .article {background: #ffffff; margin-right: -1px; position: relative; padding: 30px 0 0 0; border-top: 1px solid #dddddd; border-right: 1px solid #dddddd;}
+
+#content .image img {border-top: 1px solid #dddddd;}
+#content .video iframe {border-top: 1px solid #dddddd;}
+
+#content .image .article {margin: -70px -1px 0 0;}
+
+#content .article h1 {font-size: 36px; padding-left: 180px; line-height: 43px;}
+#content .article .content {padding: 0 20px 0 180px; font-size: 16px; color: #222222; line-height: 24px;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+#content .article .content h1,
+#content .article .content h2,
+#content .article .content h3,
+#content .article .content h4,
+#content .article .content h5,
+#content .article .content p {padding-left: 0; padding-right: 0;}
+#content .article .content p a {text-decoration: none; border-bottom: 1px solid #bbbbbb; display: inline-block; margin-bottom: -3px; padding-bottom: 1px; line-height: 1em;}
+#content .article .content p a:hover {color: #3f9fff; border-color: #3f9fff;}
+
+#content .article .disqus {padding: 0 20px 20px 180px;}
+	
+#content .article .info {float: left; padding: 5px 20px;}
+#content .article .info > div {padding: 0 0 12px;}
+#content .article .info > div,
+#content .article .info > div a {font-size: 12px; color: #bbbbbb;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+#content .article .info div.header {text-transform: uppercase; padding: 0;}
+#content .article .info div.published,
+#content .article .info div.category a {text-transform: uppercase; text-decoration: none;}
+#content .article .info div.author a {text-decoration: none;}
+
+#content .article .info div.category a:hover,
+#content .article .info div.author a:hover {color: #3f9fff;}
+
+#content .article .info .actions {font-size: 0; padding: 15px 0 0; position: relative;}
+#content .article .info .actions .social {margin: 0 13px 0 0; display: inline-block; vertical-align: top;}
+#content .article .info .actions .social > a {width: 20px; height: 20px; display: block; overflow: hidden; text-indent: -9999px; background: transparent url(/src/images/bg_icons.png) no-repeat 100px 100px;}
+#content .article .info .actions .social.twitter > a {background-position: 0 -500px;}
+#content .article .info .actions .social.twitter > a:hover {background-position: 0 -550px;}
+#content .article .info .actions .social.facebook > a {background-position: 0 -650px;}
+#content .article .info .actions .social.facebook > a:hover {background-position: 0 -700px;}
+#content .article .info .actions .social.pinterest > a {background-position: 0 -350px;}
+#content .article .info .actions .social.pinterest > a:hover {background-position: 0 -400px;}
+#content .article .info .actions .social.share > a {background-position: 0 -800px;}
+#content .article .info .actions .social.share > a:hover {background-position: 0 -850px;}
+
+#content .article .info .actions .social .options {display: none;}
+
+#content .article .info .actions .facebook.hover .options {width: 140px; padding: 10px 0 0; position: absolute; left: -10px; top: 40px; z-index: 120; background: transparent url(/src/images/bg_icons.png) no-repeat 0px -1546px;}
+#content .article .info .actions .facebook.hover {padding-bottom: 9px; background: transparent url(/src/images/bg_icons.png) no-repeat 6px -1475px;}
+
+#content .article .info .actions .facebook .options div.like {padding-top: 5px;}
+#content .article .info .actions .facebook .options div.share {padding-top: 5px;}
+#content .article .info .actions .facebook .options div.share a {background: #ECEEF5; border: 1px solid #CAD4E7; border-radius: 3px; white-space: nowrap; display: inline-block; cursor: pointer; padding: 2px 4px 0 20px; color: #3B5998; line-height: 14px; vertical-align: top; background-image: url("/src/images/facebook.png"); background-repeat: no-repeat; height: 16px; background-position: 4px 2px; font-size: 11px; font-weight: normal; 
+	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+
+.c.image div.image {/* Slider parent */
+	position: relative;
+	height: 445px;
+	overflow: hidden;
+}
+
+.slider:hover .flex-direction-nav a {
+	opacity: 1 !important;
+	width: 27px !important;
+	height: 27px !important;
+	background-image: url("/src/images/bg_icons.png") !important;
+	transition: none !important;
+}
+
+.flex-direction-nav .flex-prev {
+	left: 25px !important;
+	background-position: -62px 0 !important;
+}
+.flex-direction-nav .flex-next {
+	right: 25px !important;
+	background-position: 0 0 !important;
+}
+
+
+

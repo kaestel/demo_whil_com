@@ -1,0 +1,74 @@
+
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility; padding: 0 20px;}
+
+#content h1 {font-size: 44px; line-height: 1em; padding-bottom: 44px;}
+#content h2 {font-size: 36px; line-height: 1em; padding-bottom: 36px;}
+#content h3 {font-size: 27px; line-height: 1em; padding-bottom: 27px;}
+#content h4 {font-size: 23px; line-height: 1em; padding-bottom: 23px;}
+#content h5 {font-size: 17px; line-height: 1em; padding-bottom: 17px;}
+#content h6 {font-size: 12px; line-height: 1em; padding-bottom: 12px;}
+
+#content h1 a,
+#content h2 a,
+#content h3 a,
+#content h4 a,
+#content h5 a,
+#content h6 a {font-size: 100%;}
+
+#content p {padding: 0 20px 24px; font-size: 16px; line-height: 1.5em;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+#content p a,
+#content p span, {font-size: 100%;}
+
+
+/* PRIMARY GRID IS 3 COLUMNS */
+#content .c {font-size: 0;}
+#content .c50, 
+#content .c75, 
+#content .c100, 
+#content .c150, 
+#content .c200, 
+#content .c300 {font-size: 0; display: inline-block; vertical-align: top; min-height: 10px;}
+
+#content .c50 {width: 160px;}  /*(2 - 1/6)*/
+#content .c75 {width: 240px;}  /*(3 - 1/4)*/
+#content .c100 {width: 320px;} /*(4 - 1/3)*/
+#content .c150 {width: 480px;} /*(6 - 1/2)*/
+#content .c200 {width: 640px;} /*(8 - 2/3)*/
+#content .c300 {width: 960px;} /*(12 - 1/1)*/
+
+
+input.focus {
+	color: #000 !important;
+}
+
+
+/* PLAIN TEXT PAGE - IE TERMS */
+#content .plain {padding: 54px 75px 30px; border-top: 1px solid #dddddd;}
+#content .plain h1 {font-size: 36px; padding-bottom: 14px;}
+#content .plain h2 {font-size: 16px; padding-top: 25px; padding-bottom: 30px;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+
+/* LIKES BOX - CONTRIBUTOR PAGE */
+#content .likes {padding: 30px 0 0 160px; border-right: 1px solid #dddddd; margin-right: -1px;}
+#content .likes ul {padding: 0 20px; overflow: hidden;}
+#content .likes li {padding: 0 15px 7px 0; float: left; background: transparent url(/src/images/bg_icons.png) no-repeat right -896px; clear: both; }
+#content .likes li a {font-size: 16px; text-decoration: none; display: inline-block; padding-bottom: 2px; border-bottom: 1px solid #bbbbbb;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+#content .likes li:hover {background-position: right -946px;}
+#content .likes li:hover a {color: #3f9fff; border-color: #3f9fff;}
+
+
+
+
+
+/* TEMP */

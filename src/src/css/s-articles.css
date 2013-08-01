@@ -1,0 +1,60 @@
+
+/* ARTICLES */
+#content .articles {border-top: 1px solid #dddddd;}
+#content .articles .boxes {overflow:hidden;}
+#content .articles .horBoxes {border-bottom: 1px solid #dddddd; overflow: hidden; float: left;}
+
+#content .articles .box {width: 240px; height: 240px; float: left; position: relative; border-right: 1px solid #dddddd; margin-right: -1px; background-position: 1px 0; background-color: transparent; background-repeat: no-repeat; cursor: pointer;
+	display: none;
+}
+/* SLIGHTLY DIFFERENT WHEN USED AS RELATED GRID */
+#content .articles.related .box {display: block;}
+#content .articles.related {margin-bottom: -1px;}
+
+#content .articles.related h2 {border-bottom: 1px solid #dddddd; font-size: 14px; line-height: 1em; padding: 11px 20px 0; text-transform: uppercase; height: 28px;}
+#content .articles.related .article_exerpt h2 {border: none; text-align: left;}
+
+/* BOXES */
+#content .articles .box.big {width: 480px;}
+
+#content .articles .box .article_exerpt {padding: 20px; position: relative; width: 200px; overflow: hidden; height: 200px;}
+#content .articles .box.big .article_exerpt {width: 440px;}
+
+#content .articles .box.big .article_exerpt,
+#content .articles .box.image .article_exerpt {
+	background: transparent url(/src/images/gx_box_tile.png) repeat-x 0 -240px;
+}
+
+#content .articles .box .info div {padding-bottom: 5px; font-size: 10px; text-transform: uppercase; color: #777777;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+#content .articles .box.image .info div {color: #ffffff;}
+
+#content .articles .box .article_exerpt h2 {padding: 0; color: #777777; font-size: 17px; padding-bottom: 10px; width: 200px;}
+.ipad #content .articles .box .article_exerpt h2 {color: #000}
+#content .articles .box.big .article_exerpt h2,
+#content .articles .box.image .article_exerpt h2 {color: #ffffff;}
+
+#content .articles .box .article_exerpt p {padding: 0; color: #777777; font-size: 13px; line-height: 16px; width: 200px;}
+#content .articles .box.big .article_exerpt p,
+#content .articles .box.image .article_exerpt p {
+	top: 200px;
+	position: relative;
+	color: #ffffff;
+}
+
+.ipad #content .articles .box .article_exerpt ul.actions {bottom: 20px;}
+.ipad #content .articles .box.image .article_exerpt ul.actions {bottom: -20px; display: none;}
+#content .articles .box .article_exerpt ul.actions {padding: 0; position: absolute; bottom: -20px; left: 20px;}
+#content .articles .box.image:hover .article_exerpt ul.actions {display: block;}
+
+
+#content .articles .box .article_exerpt ul.actions a {font-size: 10px; text-transform: uppercase; text-decoration: underline; color: #3f9fff; display: block; padding-bottom: 2px;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+#content .articles .box .article_exerpt ul.actions a {color: #3f9fff;}
+/*#content .articles .box.image .article_exerpt ul.actions a {color: #ffffff;}*/
+
+#content .articles .box .article_exerpt .play {width: 50px; height: 50px; position: absolute; left: 50%; margin-left: -25px; top: 50%; margin-top: -25px; background: transparent url(/src/images/bg_icons.png) no-repeat 0 -100px;}
+
+

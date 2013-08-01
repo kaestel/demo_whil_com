@@ -1,0 +1,31 @@
+.front #content {border-top: 1px solid #dddddd;}
+
+/* FRONT SPLASH + SLIDER */
+.front #content .splash {position: relative; width: 960px; height: 445px;}
+.front #content .splash .index {position: absolute; overflow: hidden; width: 240px; top: 20px; right: 20px; z-index: 100; border-top: 1px solid #dddddd; border-bottom: 1px solid #dddddd; background: transparent url(/src/images/gx_accordion_bg.png) no-repeat scroll left -248px;}
+/*.front #content .splash .index h1 {padding: 20px; font-size: 27.194px; text-transform: uppercase; border-bottom: 1px solid #dddddd;}*/
+.front #content .splash .index dl {margin: -1px 20px 0; padding: 0 0 10px; border-top: 1px dotted #dddddd; cursor: pointer;}
+.front #content .splash .index dt {cursor:pointer;}
+.front #content .splash .index dt .info {padding: 20px 0 5px;}
+.front #content .splash .index dt .info .category {font-size: 10px; text-transform: uppercase; color: #777777;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+.front #content .splash .index dt .headline {font-size: 17px; color: #777777; padding: 0 0 10px;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+.front #content .splash .index .active dt .headline,
+.front #content .splash .index dt:hover .headline {color: #222222;}
+.front #content .splash .index dd {display: none;}
+.front #content .splash .index dd p {font-size: 13px; padding: 0 0 10px; line-height: 16px; color: #777777;}
+.front #content .splash .index dd .actions {padding: 0 0 10px;}
+.front #content .splash .index dd .actions li.more a {font-size: 10px; text-transform: uppercase; border-bottom: 1px solid #dddddd; color: #777777;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+.front #content .splash .index dl:hover .actions li.more a {border-color: #3f9fff; text-decoration: none; color: #3f9fff;}
+.front #content .splash .slides li {display: none;}
+
+.front .flex-control-nav, .front .flex-direction-nav {
+  width: auto !important;
+  left: -100px;
+  display: none;
+}

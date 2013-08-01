@@ -1,0 +1,55 @@
+/*
+@font-face {
+    font-family: 'VollkornRegular';
+    src: url('/src/fonts/Vollkorn-Regular-webfont.eot');
+    src: url('/src/fonts/Vollkorn-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/src/fonts/Vollkorn-Regular-webfont.woff') format('woff'),
+         url('/src/fonts/Vollkorn-Regular-webfont.ttf') format('truetype'),
+         url('/src/fonts/Vollkorn-Regular-webfont.svg#VollkornRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VollkornBold';
+    src: url('/src/fonts/Vollkorn-Bold-webfont.eot');
+    src: url('/src/fonts/Vollkorn-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/src/fonts/Vollkorn-Bold-webfont.woff') format('woff'),
+         url('/src/fonts/Vollkorn-Bold-webfont.ttf') format('truetype'),
+         url('/src/fonts/Vollkorn-Bold-webfont.svg#VollkornBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VollkornItalic';
+    src: url('/src/fonts/Vollkorn-Italic-webfont.eot');
+    src: url('/src/fonts/Vollkorn-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/src/fonts/Vollkorn-Italic-webfont.woff') format('woff'),
+         url('/src/fonts/Vollkorn-Italic-webfont.ttf') format('truetype'),
+         url('/src/fonts/Vollkorn-Italic-webfont.svg#VollkornItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VollkornBoldItalic';
+    src: url('/src/fonts/Vollkorn-BoldItalic-webfont.eot');
+    src: url('/src/fonts/Vollkorn-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/src/fonts/Vollkorn-BoldItalic-webfont.woff') format('woff'),
+         url('/src/fonts/Vollkorn-BoldItalic-webfont.ttf') format('truetype'),
+         url('/src/fonts/Vollkorn-BoldItalic-webfont.svg#VollkornBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+@font-face {
+    font-family: 'TeXGyreAdventorBold';
+    src: url('/src/fonts/texgyreadventor-bold-webfont.eot');
+    src: url('/src/fonts/texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/src/fonts/texgyreadventor-bold-webfont.woff') format('woff'),
+         url('/src/fonts/texgyreadventor-bold-webfont.ttf') format('truetype'),
+         url('/src/fonts/texgyreadventor-bold-webfont.svg#TeXGyreAdventorBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

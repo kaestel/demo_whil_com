@@ -1,0 +1,37 @@
+
+.search #content {border-top: 1px solid #dddddd; position: relative;}
+.search #content h1 {font-size: 17px; text-transform: uppercase; padding: 12px 20px 0; height: 36px;}
+.search #content h1 span {color: #777777; padding-left: 3px;}
+.search #content .count {position: absolute; right: 20px; top: 12px; font-size: 17px; text-transform: uppercase;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+
+.search #content .results {border-top: 1px solid #dddddd; position: relative;}
+.search #content .results h2 {position: absolute; left: 0px; top: 16px; font-size: 17px; text-transform: uppercase;}
+.search #content .results ul {padding: 17px 20px 10px 240px;}
+.search #content .results li {padding: 0 0 25px; position: relative;}
+	
+.search #content .results h3 {font-size: 17px; padding-bottom: 8px; width: 520px; color: #777777;}
+.search #content .results h3 a {font-size: 17px; color: #777777; text-decoration: none;}
+.search #content .results h3 a:hover {color: #3f9fff;}
+.search #content .results img {position: absolute; top: 3px; right: 0;}
+.search #content .results p {color: #777777; width: 520px; line-height: 16px; font-size: 13px; padding-bottom: 10px;}
+
+.search #content .results .info {font-size: 0; padding: 0 20px;}
+.search #content .results .info div {display: inline-block; vertical-align: top; font-size: 10px; text-transform: uppercase; color: #777777;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+.search #content .results .info div a {color: #777777; text-decoration: none;}
+.search #content .results .info div a:hover {color: #3f9fff;}
+
+.search #content .results .info .category {}
+.search #content .results .info .author {text-transform: none; padding-left: 12px; background: transparent url(/src/images/bg_icons.png) no-repeat 4px -1596px;}
+.search #content .results .info .author a {text-transform: uppercase;}
+.search #content .results .info .published {padding-left: 12px; background: transparent url(/src/images/bg_icons.png) no-repeat 4px -1596px;}
+
+.search #content .results.articles {}
+.search #content .results.contributors {}
+.search #content .results.contributors h3 {padding-left: 100px;}
+.search #content .results.contributors img {top: 3px; left: 20px; right: auto;}
+.search #content .results.contributors p {padding-left: 100px;}
+.search #content .results.other {}

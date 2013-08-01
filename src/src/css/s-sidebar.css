@@ -1,0 +1,137 @@
+#content .sidebar {border-left: 1px solid #dddddd; border-top: 1px solid #dddddd; border-bottom: 1px solid #dddddd; position: relative; margin-bottom: -1px;}
+
+
+/* SIDEBAR LATEST */
+#content .sidebar .latest {position: relative;}
+#content .sidebar .latest h3 {font-size: 14px; text-transform: uppercase; padding: 17px 0 0 20px; height: 37px;}
+#content .sidebar .latest ul.actions {position: absolute; top: 20px; right: 20px;}
+#content .sidebar .latest ul.actions li a {font-size: 10px; text-transform: uppercase; color: #777777; display: block; padding-bottom: 2px; border-bottom: 1px solid #bbbbbb;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+#content .sidebar .latest ul.actions li a:hover {border-color: #3f9fff; text-decoration: none; color: #3f9fff;}
+
+#content .sidebar .latest ul.latest li {border-top: 1px dotted #dddddd; position: relative; height: 80px;}
+#content .sidebar .latest ul.latest li .play {position: absolute; top: 10px; right: 10px; width: 30px; height: 30px; background: transparent url(/src/images/bg_icons.png) no-repeat 3px 0;}
+#content .sidebar .latest ul.latest li.video {}
+#content .sidebar .latest ul.latest li.image {}
+
+#content .sidebar .latest ul.latest li h4 {width: 120px; padding-top: 8px; font-size: 13px;}
+#content .sidebar .latest ul.latest li h4 a {color: #777777; text-decoration: none; line-height: 16px;
+	font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 500;
+}
+#content .sidebar .latest ul.latest li h4 a:hover {color: #3f9fff;}
+#content .sidebar .latest ul.latest li a.img {position: absolute; top: 0; right: 0; width: 140px; height: 80px;}
+#content .sidebar .latest ul.latest li a.img img {border: none;}
+#content .sidebar .latest ul.latest li a.noimg {position: absolute; top: 0; right: 0; width: 139px; height: 80px; display: block; border-left: 1px solid #dddddd;}
+
+#content .sidebar .latest ul.latest li .info {position: absolute; bottom: 10px; left: 20px;}
+#content .sidebar .latest ul.latest li .info .author {font-size: 10px; color: #777777;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+#content .sidebar .latest ul.latest li .info a {text-transform: uppercase; color: #777777; text-decoration: none;}
+#content .sidebar .latest ul.latest li .info a:hover {color: #3f9fff;}
+
+.contributor #content .sidebar .latest ul.latest li .info {position: static; bottom: auto; left: auto; padding: 10px 20px 0;}
+.contributor #content .sidebar .latest ul.latest li .info .category {font-size: 10px; color: #777777;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+.contributor #content .sidebar .latest ul.latest li h4 {padding-top: 2px;}
+
+
+/* SIDEBAR MAILLIST */
+#content .sidebar .maillist {border-top: 1px solid #dddddd;}
+#content .sidebar .maillist h3 {font-size: 14px; text-transform: uppercase; padding: 17px 0 0; height: 37px;}
+#content .sidebar .maillist div.signup {padding: 0 20px 20px; font-size: 0; height: 89px; display: block;}
+#content .sidebar .maillist div.signup fieldset {display: inline-block; vertical-align: top;}
+#content .sidebar .maillist div.signup ul.actions {display: inline-block; vertical-align: top;}
+#content .sidebar .maillist div.signup .field {border: 1px solid #dddddd; margin-right: -1px; height: 33px; width: 208px;}
+#content .sidebar .maillist div.signup .field input {background-color: transparent; background-position: 186px 8px; border: none; text-transform: uppercase; font-size: 12px; color: #bbbbbb; padding: 6px 0 0 5px; width: 202px;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+#content .sidebar .maillist div.signup .actions li {border: 1px solid #222222; height: 33px; overflow: hidden;}
+#content .sidebar .maillist div.signup .actions li:hover {border: 1px solid #ffffff; background: #222222; height: 33px; overflow: hidden;}
+#content .sidebar .maillist div.signup .actions li input {background: transparent; border: none; text-transform: uppercase; font-size: 12px; color: #222222; width: 68px; padding: 5px 0 5px;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+#content .sidebar .maillist div.signup .actions li:hover input {color: #ffffff;}
+
+#content .sidebar .maillist .receipt {padding: 0 20px 20px; font-size: 0; height: 89px; display: none;}
+#content .sidebar .maillist .error {padding: 0 20px 20px; font-size: 0; height: 89px; position: relative; display: none;}
+
+#content .sidebar .maillist .error h3 {color: red;}
+#content .sidebar .maillist .error p {padding: 0;}
+#content .sidebar .maillist .error ul.actions {position: absolute; left: 20px; bottom: 10px;}
+#content .sidebar .maillist .error ul.actions li {padding: 0;}
+#content .sidebar .maillist .error ul.actions a {margin: 0; padding: 0 0 2px; display: inline-block; border-bottom: 1px solid #bbbbbb; background: none; font-size: 10px; color: #777777; text-transform: uppercase; text-decoration: none;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+#content .sidebar .maillist .error ul.actions a:hover {color: #3f9fff; border-color: #3f9fff;}
+
+
+
+/* SIDEBAR TWITTER */
+#content .sidebar .twitter {position: relative;}
+#content .sidebar .twitter h3 {font-size: 14px; text-transform: uppercase; padding: 17px 0 0 20px; height: 19px; border-top: 1px solid #dddddd;}
+#content .sidebar .twitter ul.actions {position: absolute; top: 20px; right: 20px;}
+#content .sidebar .twitter ul.actions li a {font-size: 10px; text-transform: uppercase; color: #777777; display: block; padding-bottom: 2px; border-bottom: 1px solid #bbbbbb;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+#content .sidebar .twitter ul.actions li a:hover {border-color: #3f9fff; text-decoration: none; color: #3f9fff;}
+#content .sidebar .twitter .twitterfeed {padding: 0 20px;}
+#content .sidebar .twitter .twitterfeed.loading {min-height: 150px;}
+#content .sidebar .twitter .twitterfeed li {padding: 15px 0; border-bottom: 1px dotted #dddddd;}
+#content .sidebar .twitter .twitterfeed li div,
+#content .sidebar .twitter .twitterfeed li span,
+#content .sidebar .twitter .twitterfeed li a {font-size: 13px; color: #777777; line-height: 1em;
+	font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 500;
+}
+#content .sidebar .twitter .twitterfeed li .tweet a {text-decoration: underline;}
+#content .sidebar .twitter .twitterfeed li .tweet a:hover {color: #3f9fff;}
+#content .sidebar .twitter .twitterfeed li .timestamp {font-size: 10px; text-transform: uppercase; padding: 0 0 5px;}
+#content .sidebar .twitter .twitterfeed li .tweet {line-height: 1.2em;}
+
+#content .sidebar .twitter .all_tweets {padding: 13px 0 15px; text-align: center;}
+#content .sidebar .twitter .all_tweets a {color: #777777; font-size: 10px; text-transform: uppercase; text-decoration: none; padding-right: 17px; background: transparent url(/src/images/bg_icons.png) no-repeat right -896px;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+#content .sidebar .twitter .all_tweets a:hover {color: #3f9fff; background-position: right -946px;}
+
+
+
+/* SIDEBAR CONTRIBUTORS */
+#content .sidebar .contributors {position: relative; border-bottom: 1px solid #dddddd; margin-bottom: -1px}
+#content .sidebar .contributors li {border-top: 1px dotted #dddddd; position: relative; height: 140px;}
+#content .sidebar .contributors li:first-child {border: none;}
+
+#content .sidebar .contributors li .info {padding: 10px 20px 2px;}
+#content .sidebar .contributors li .info .title {font-size: 10px; color: #777777; text-transform: uppercase;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+
+#content .sidebar .contributors li h4 {font-size: 14px; text-transform: uppercase; padding-bottom: 8px;}
+#content .sidebar .contributors li img {position: absolute; top: 0; right: 0; width: 140px; height: 140px; border: none;}
+
+#content .sidebar .contributors li ul.keywords {}
+#content .sidebar .contributors li ul.keywords li {height: auto; border: none; font-size: 13px; line-height: 16px; color: #777777; padding: 0 20px 3px;
+	font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 500;
+}
+
+#content .sidebar .contributors li ul.actions {position: absolute; bottom: 15px; left: 20px;}
+#content .sidebar .contributors li ul.actions li {height: auto; border: none;}
+#content .sidebar .contributors li ul.actions li a {font-size: 10px; text-transform: uppercase; color: #777777; border-bottom: 1px solid #bbbbbb;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+#content .sidebar .contributors li ul.actions li a:hover {border-color: #3f9fff; text-decoration: none; color: #3f9fff;}
+
+
+
+/* SIDEBAR FOUNDERS */
+#content .sidebar .founder {height: 126px; background-color: rgba(0, 0, 0, 0.5); margin-left: -1px; position: absolute; top: -127px; left: 0; width: 320px;}
+.lt-ie9 #content .sidebar .founder {background: transparent url(/src/images/bg_founders_ie8.png) repeat top left;}
+
+#content .sidebar .founder h3 {font-size: 27px; color: #ffffff; padding: 16px 20px 3px; text-transform: uppercase;}
+#content .sidebar .founder ul.keywords {}
+#content .sidebar .founder ul.keywords li {height: auto; border: none; font-size: 17px; color: #ffffff; padding: 3px 20px 0px;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+

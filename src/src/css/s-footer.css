@@ -1,0 +1,82 @@
+#footer {background: #ffffff; border-top: 1px solid #dddddd; height: 35px;}
+
+
+/* STICKY FOOTER ON ENDLESS PAGES */
+.front #footer,
+.articles #footer {position: fixed; bottom: 0; left: 50%; margin-left: -480px; width: 960px;}
+
+
+#footer .servicenavigation {font-size: 0; text-align: right; padding-right: 10px;}
+#footer .servicenavigation li {display: inline-block; vertical-align: top; padding: 12px 10px 0; color: #777777; font-size: 10px; text-transform: uppercase;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+#footer .servicenavigation li a {font-size: 100%; color: #777777; display: block; padding-bottom: 2px; text-decoration: underline;}
+#footer .servicenavigation li a:hover {color: #3f9fff;}
+
+#footer .servicenavigation li.copyright {position: absolute; bottom: 12px; left: 10px;}
+
+
+
+/* ON WIDE PAGE - show to top link in right margin */
+#footer .servicenavigation li.top {position: fixed; bottom: 0; right: 0px; padding: 0 0 8px;
+	opacity: 0;
+}
+#footer .servicenavigation li.top.show {
+	opacity: 1;
+}
+#footer .servicenavigation li.top a {display: block; text-align: center; width: 55px; height: 12px; background: transparent url(/src/images/bg_icons.png) no-repeat 7px -1300px; padding-top: 52px; 
+	color: #bbbbbb;
+}
+
+#footer .servicenavigation li.top a:hover {background-position: 7px -1400px; /*border-color: #777777;*/ color: #777777;}
+
+
+/* ON NARROW PAGE - show to top link centered in footer */
+.narrow #footer .servicenavigation li.top {position: absolute; left: 50%; margin-left: -50px; padding: 0; right: auto; bottom: auto;}
+.narrow #footer .servicenavigation li.top a {height: 23px; width: 100px; padding: 12px 0 0; background: transparent url(/src/images/gx_subnavigation.png) no-repeat center 27px; border: none;}
+
+
+
+/* SLIDEUP */
+#footer .servicenavigation li .slideup {position: absolute; left: 0; bottom: 36px; width: 100%; background: #ffffff; z-index: 50; overflow: hidden; font-size: 0; text-align: right; height: 105px; display: none;}
+#footer .servicenavigation li .slideup .close {position: absolute; right: 20px; top: 15px; width: 25px; height: 25px; background: transparent url(/src/images/bg_icons.png) no-repeat 0 -200px; cursor: pointer; z-index: 20;}
+#footer .servicenavigation li .slideup .close:hover {background-position: 0 -250px;}
+
+#footer .servicenavigation li.expanded > a {position: relative; z-index: 60; margin-top: -22px; padding-top: 22px; background: transparent url(/src/images/gx_subnavigation.png) no-repeat top center;}
+#footer .servicenavigation li.expanded .slideup {border-top: 1px solid #dddddd; }
+
+
+#footer .servicenavigation .slideup .maillist {display: inline-block; vertical-align: top; width: 375px; text-align: left;}
+#footer .servicenavigation .slideup .maillist h3 {font-size: 14px; text-transform: uppercase; padding: 17px 0 0; height: 33px;}
+#footer .servicenavigation .slideup .maillist div.signup {padding: 0 20px 20px; font-size: 0; height: 85px;}
+
+#footer .servicenavigation .slideup .maillist div.signup fieldset {display: inline-block; vertical-align: top;}
+#footer .servicenavigation .slideup .maillist div.signup ul.actions {display: inline-block; vertical-align: top;}
+
+#footer .servicenavigation .slideup .maillist div.signup .field {border: 1px solid #dddddd; margin-right: -1px; height: 33px; width: 264px;}
+#footer .servicenavigation .slideup .maillist div.signup .field input {background: transparent; border: none; text-transform: uppercase; font-size: 12px; color: #bbbbbb; padding: 6px 0 0 5px; width: 258px;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+#footer .servicenavigation .slideup .maillist div.signup .actions li {border: 1px solid #222222; height: 33px; overflow: hidden; padding: 0;}
+#footer .servicenavigation .slideup .maillist div.signup .actions li:hover {border: 1px solid #ffffff; background: #222222; height: 33px; overflow: hidden;}
+#footer .servicenavigation .slideup .maillist div.signup .actions li input {background: transparent; border: none; text-transform: uppercase; font-size: 12px; color: #222222; width: 68px; padding: 5px 0 5px;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+#footer .servicenavigation .slideup .maillist div.signup .actions li:hover input {color: #ffffff;}
+
+#footer .servicenavigation .slideup .error h3 {color: red;}
+#footer .servicenavigation .slideup .error p {padding: 0;}
+#footer .servicenavigation .slideup .error ul.actions {position: absolute; left: 20px; bottom: 10px;}
+#footer .servicenavigation .slideup .error ul.actions li {padding: 0;}
+#footer .servicenavigation .slideup .error ul.actions a {margin: 0; padding: 0 0 2px; display: inline-block; border-bottom: 1px solid #bbbbbb; background: none; font-size: 10px;}
+#footer .servicenavigation .slideup .error ul.actions a:hover {color: #3f9fff; border-color: #3f9fff;}
+
+#footer .servicenavigation .slideup .maillist .receipt {padding: 0 20px 20px; height: 85px; display: none;}
+#footer .servicenavigation .slideup .maillist .error {padding: 0 20px 20px; height: 85px; position: relative; display: none;}
+	
+
+/* CONTACT INFO */
+#footer .servicenavigation .slideup .contactinfo {display: inline-block; vertical-align: top; /*width: 214px;*/ text-align: left;}
+#footer .servicenavigation .slideup .contactinfo h3 {font-size: 14px; text-transform: uppercase; padding: 17px 0 0; height: 33px;}
+#footer .servicenavigation .slideup .contactinfo div.email {font-size: 10px; color: #777777; text-transform: uppercase; padding-left: 30px; width: 214px; display: inline-block; position: relative;}
+#footer .servicenavigation .slideup .contactinfo div.email a {background: none; border: none; position: absolute; top: 0; left: 0; background: transparent url(/src/images/bg_icons.png) no-repeat 0 -850px; margin: 0; padding: 2px 0 10px 30px; font-size: 14px;}

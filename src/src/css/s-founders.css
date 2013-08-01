@@ -1,0 +1,50 @@
+.founders #content {position: relative;}
+.founders #content .image {border-bottom: 1px solid #dddddd;}
+
+.founders #content h1 {padding: 30px 20px 30px 95px; font-size: 36px;}
+
+.founders #content ul.founders {padding: 0 0 20px 70px; width: 460px; font-size: 0;}
+.founders #content ul.founders li {display: inline-block; vertical-align: top; width: 230px; height: 130px; position: relative;}
+.founders #content ul.founders li .info {padding: 0 20px 1px;}
+.founders #content ul.founders li .info .title {font-size: 10px; color: #777777; text-transform: uppercase;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+.founders #content ul.founders li h4 {font-size: 17px; text-transform: uppercase; padding-bottom: 5px;}
+.founders #content ul.founders li h4 a {text-decoration: none;}
+.founders #content ul.founders li h4 a:hover {color: #3f9fff;}
+
+.founders #content ul.founders li ul.keywords {}
+.founders #content ul.founders li ul.keywords li {height: auto; border: none; font-size: 13px; line-height: 16px; color: #777777; padding: 0 20px;
+	font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 500;
+}
+
+.founders #content ul.founders li ul.actions {position: absolute; bottom: 10px; left: 20px;}
+.founders #content ul.founders li ul.actions li {height: auto; border: none;}
+.founders #content ul.founders li ul.actions li a {font-size: 10px; text-transform: uppercase; display: inline-block; padding-bottom: 2px; color: #777777; border-bottom: 1px solid #bbbbbb;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+.founders #content ul.founders li ul.actions li a:hover {border-color: #3f9fff; text-decoration: none; color: #3f9fff;}
+
+
+.founders #content .sharing {font-size: 0; padding: 15px 0 0; position: absolute; top: 455px; right: 95px;}
+.founders #content .sharing .social {margin: 0 13px 0 0; display: inline-block; vertical-align: top;}
+.founders #content .sharing .social > a {width: 20px; height: 20px; display: block; overflow: hidden; text-indent: -9999px; background: transparent url(/src/images/bg_icons.png) no-repeat 100px 100px;}
+.founders #content .sharing .social.twitter > a {background-position: 0 -500px;}
+.founders #content .sharing .social.twitter > a:hover {background-position: 0 -550px;}
+.founders #content .sharing .social.facebook > a {background-position: 0 -650px;}
+.founders #content .sharing .social.facebook > a:hover {background-position: 0 -700px;}
+.founders #content .sharing .social.pinterest > a {background-position: 0 -350px;}
+.founders #content .sharing .social.pinterest > a:hover {background-position: 0 -400px;}
+.founders #content .sharing .social.share > a {background-position: 0 -800px;}
+.founders #content .sharing .social.share > a:hover {background-position: 0 -850px;}
+
+.founders #content .sharing .social .options {display: none;}
+
+.founders #content .sharing .facebook:hover .options {display: block; width: 140px; padding: 10px 0 0; position: absolute; left: -10px; top: 40px; z-index: 120; background: transparent url(/src/images/bg_icons.png) no-repeat 0px -1496px;}
+.founders #content .sharing .facebook:hover {padding-bottom: 9px; background: transparent url(/src/images/bg_icons.png) no-repeat 6px -1525px;}
+
+.founders #content .sharing .facebook .options div.like {padding-top: 5px;}
+.founders #content .sharing .facebook .options div.share {padding-top: 5px;}
+.founders #content .sharing .facebook .options div.share a {background: #ECEEF5; border: 1px solid #CAD4E7; border-radius: 3px; white-space: nowrap; display: inline-block; cursor: pointer; padding: 2px 4px 0 20px; color: #3B5998; line-height: 14px; vertical-align: top; background-image: url("/src/images/facebook.png"); background-repeat: no-repeat; height: 16px; background-position: 4px 2px; font-size: 11px; font-weight: normal; 
+	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+}

@@ -1,0 +1,26 @@
+.meditate #content .videolisting ul {font-size: 0; background: #333333;}
+.meditate #content .videolisting li {width: 140px; padding: 20px 26px; display: inline-block; vertical-align: top; border-left: 1px solid #222222; margin-left: -1px; position: relative; height: 109px; border-bottom: 1px solid #333333;}
+.meditate #content .videolisting li:hover,
+.meditate #content .videolisting li.selected {background: #222222;}
+.meditate #content .videolisting li .info {padding: 8px 0 0; font-size: 0;}
+.meditate #content .videolisting li a div.play {background: transparent url(/src/images/bg_icons.png) no-repeat 0px 10px; position: absolute; top: 20px; right: 26px; width: 37px; height: 37px;}
+.meditate #content .videolisting li:hover a div.play,
+.meditate #content .videolisting li.selected a div.play {background-position: 0 -40px;}
+
+.meditate #content .videolisting li .info .step,
+.meditate #content .videolisting li .info .duration,
+.meditate #content .videolisting li .info .title {
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+.meditate #content .videolisting li .info .step,
+.meditate #content .videolisting li .info .duration {font-size: 10px; color: #777777; text-transform: uppercase; display: inline-block; vertical-align: top;}
+.meditate #content .videolisting li .info .duration {padding-left: 13px; background: transparent url(/src/images/bg_icons.png) no-repeat 4px -1596px;}
+.meditate #content .videolisting li .info .title {font-size: 12px; color: #ffffff; text-transform: uppercase; padding: 5px 0 0;}
+
+.meditate #content .article .info {padding-top: 38px;}
+.meditate #content .article h1 {padding-top: 10px; padding-bottom: 0;}
+.meditate #content .article .content h2 {font-size: 22px; text-transform: uppercase; padding-bottom: 22px; padding-top: 35px;}
+.meditate #content .article .content {padding-bottom: 20px;}
+
+.meditate #content .sidebar .info h3 {font-size: 17px; text-transform: uppercase; padding-top: 18px; padding-bottom: 15px;}
+.meditate #content .sidebar .info p {font-size: 13px; line-height: 16px; color: #777777; padding-bottom: 16px;}

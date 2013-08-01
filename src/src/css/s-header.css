@@ -1,0 +1,114 @@
+#header {height: 95px; position: absolute; top: 0; width: 960px; left: 50%; margin-left: -480px; z-index: 1000;}
+#header.fixed {position: fixed; top: -30px; width: 960px; left: 50%; margin-left: -480px; }
+#header.fixed.dropshadow {background: transparent url(/src/images/gx_menu_shadow.png) repeat-x bottom left;}
+#header .shadow {height: 90px;}
+#header.fixed .shadow {background: #ffffff;}
+
+
+/* NAVIGATION */
+#navigation {position: absolute; top: 45px; left: 20px; height: 28px;}
+#navigation ul {font-size: 0;}
+#navigation ul li {display: inline-block; vertical-align: top; padding: 0 3px; position: relative;}
+
+#navigation ul li a,
+#navigation ul li.ancestor li a,
+#navigation ul li.current li a {color: #777777; text-decoration: none;}
+
+#navigation ul li.ancestor a,
+#navigation ul li.current a,
+#navigation ul li.ancestor li.current a,
+#navigation ul li li a:hover,
+#navigation ul li a:hover {color: #3f9fff;}
+
+/*#navigation ul li.current li a {color: #777777;}*/
+
+#navigation li a {font-size: 12px; text-transform: uppercase; display: block; padding: 8px 10px;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility; 
+}
+
+#navigation ul li.haschildren a {background: transparent url(/src/images/bg_icons.png) no-repeat right -1086px;}
+
+#navigation ul li ul {
+	display: none;
+	margin-top: 10px;
+}
+
+#navigation ul li ul {position: absolute; border: 1px solid #dddddd; background: #ffffff; width: 160px; top: 28px; left: 50%; margin-left: -80px; padding-top: 9px;}
+#navigation ul li li {display: block; text-align: center; padding: 10px 0;}
+#navigation ul li li:last-child {padding-bottom: 20px;}
+
+#navigation ul li li a {text-transform: uppercase; padding: 0; font-size: 12px;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility; 
+}
+
+#navigation ul li ul:before {
+	content: "";
+	height: 10px;
+	top: -10px;
+	position: absolute;
+	width: 100%;
+	display: block;
+	background: #ffffff url(/src/images/gx_subnavigation.png) no-repeat top center;
+}
+
+/* LOGO OVERLAY */
+#page .logo {
+	position:absolute;
+	top:20px;
+	left:50%;
+	margin-left:-39px;
+	width:78px;
+	height:79px;
+	background: url(/src/images/gx_logoBg.png) no-repeat center center;
+	z-index:1100;
+	overflow: hidden;
+}
+#page .logo .konami {
+	background: url("http://www.featurepics.com/FI/Thumb300/20080217/Leopard-Skin-616607.jpg") fixed center 0px !important;
+}
+#page .logo a {
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:1200;
+	text-indent:-9999px;
+	background: url(/src/images/gx_logoMask.png) no-repeat center center;
+}
+
+#page .logo .text {
+	position: absolute;
+	width:78px;
+	height:79px;
+	left: 0;
+	top: 79px;
+	overflow: hidden;
+	background: url(/src/images/gx_logoMask2.png) no-repeat center center;
+}
+
+/* SEARCH */
+#header div.search {position: absolute; top: 44px; right: 20px; /*overflow: hidden;*/ margin: 1px; display: block;}
+#header div.search fieldset {display: inline-block; vertical-align: top; font-size: 0;}
+#header div.search fieldset .field {font-size: 0; width: 53px;overflow:hidden;text-align: right; }
+#header div.search fieldset input {border: none; color: #777777; background-color: transparent; background-position: 300px 9px; height: 30px; display: block; vertical-align: top; padding: 0; font-size: 12px; text-transform: uppercase;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility;
+}
+
+.lt-ie9 #header div.search fieldset input {line-height: 30px;}
+
+#header div.search .autocomplete {position: absolute; top: 34px; left: -1px; width: 350px; background-color: #ffffff; font-size: 12px; box-shadow: 0 1px 3px #777777; border: 1px solid #dddddd; border-top: none; display: none;}
+#header div.search .autocomplete ul {padding-bottom: 4px;}
+#header div.search .autocomplete ul li {padding: 12px 12px 8px;}
+#header div.search .autocomplete li a {text-decoration: none; text-transform: uppercase; padding: 0; font-size: 12px; line-height: 1em; color: #858585;
+	font-family:'TeXGyreAdventorBold', Arial, sans-serif; text-rendering: optimizeLegibility; 
+}
+#header div.search .autocomplete li a.ui-state-hover {color: #3F9FFF;}
+
+#header div.search .actions {display: inline-block; vertical-align: top;}
+#header div.search .actions li input {border: none; background: transparent url(/src/images/bg_icons.png) no-repeat 9px -1140px; text-indent: -9999px; display: block; width: 30px; height: 33px; cursor: pointer;}
+
+#header div.active {border: 1px solid #dddddd; margin: 0px;}
+#header div.active fieldset input {padding-left: 10px; color: #222222;width: 100%; float:left;}
+#header div.active .actions li input {background-position: 9px -1190px;}
